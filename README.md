@@ -1,6 +1,6 @@
-# AndroidHelper - My GitHub Copilot Custom Agent
+# AndroidAgent-A1 - GitHub Copilot Custom Agent
 
-A simple GitHub Copilot custom agent for Android development in Kotlin.
+A custom GitHub Copilot agent (Version A1) for Android development in Kotlin.
 
 ## Description
 
@@ -12,7 +12,7 @@ This custom agent helps with common Android development tasks using simple comma
 
 Cleans up and optimizes import statements in Kotlin files.
 
-**Usage:** Select Kotlin code and run `@AndroidHelper /cleanup`
+**Usage:** Select Kotlin code and run `@AndroidAgent-A1 /cmdCI`
 
 ## Installation
 
