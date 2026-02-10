@@ -1,4 +1,4 @@
-# AndroidHelper - GitHub Copilot Custom Agent
+# AndroidHelper - My GitHub Copilot Custom Agent
 
 A simple GitHub Copilot custom agent for Android development in Kotlin.
 
@@ -8,25 +8,11 @@ This custom agent helps with common Android development tasks using simple comma
 
 ## Available Commands
 
-### `/cleanup`
+### `/cmdCI`
+
 Cleans up and optimizes import statements in Kotlin files.
 
 **Usage:** Select Kotlin code and run `@AndroidHelper /cleanup`
-
-### `/viewmodel`
-Generates a ViewModel class for your Activity following MVVM architecture pattern.
-
-**Usage:** In your Activity file, run `@AndroidHelper /viewmodel`
-
-### `/test`
-Generates comprehensive unit tests for selected Kotlin functions.
-
-**Usage:** Select a function and run `@AndroidHelper /test`
-
-### `/binding`
-Converts Activity or Fragment to use ViewBinding.
-
-**Usage:** In your Activity/Fragment file, run `@AndroidHelper /binding`
 
 ## Installation
 
@@ -39,21 +25,6 @@ Converts Activity or Fragment to use ViewBinding.
 - GitHub Copilot subscription
 - Android Studio
 - GitHub Copilot Extensions enabled
-
-## Example
-
-```kotlin
-// In MainActivity.kt, type:
-@AndroidHelper /viewmodel
-
-// The agent will generate a ViewModel like:
-class MainViewModel : ViewModel() {
-    private val _data = MutableLiveData<String>()
-    val data: LiveData<String> = _data
-    
-    // Your logic here
-}
-```
 
 ## License
 
