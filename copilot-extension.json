@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "name": "AndroidHelper",
+  "description": "Simple Android development assistant",
+  "agent": {
+    "endpoint": "custom",
+    "commands": [
+      {
+        "name": "cleanup",
+        "description": "Clean up unused imports in Kotlin files",
+        "system_prompt": "Remove all unused imports from the selected Kotlin code and optimize the import statements"
+      },
+      {
+        "name": "viewmodel",
+        "description": "Generate a ViewModel for this Activity",
+        "system_prompt": "Generate a corresponding ViewModel class for the current Activity following MVVM pattern with LiveData"
+      },
+      {
+        "name": "test",
+        "description": "Generate unit tests for selected function",
+        "system_prompt": "Generate comprehensive unit tests for the selected Kotlin function using JUnit and MockK"
+      },
+      {
+        "name": "binding",
+        "description": "Set up ViewBinding for Activity or Fragment",
+        "system_prompt": "Convert the current Activity or Fragment to use ViewBinding, including all necessary setup and view references"
+      }
+    ]
+  }
+}
